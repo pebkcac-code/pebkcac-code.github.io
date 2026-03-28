@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>我的学习笔记</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 0 20px;
+      color: #333;
+      line-height: 1.6;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 30px;
+      color: #2c3e50;
+    }
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    li {
+      margin: 16px 0;
+      padding: 12px 0;
+      border-bottom: 1px solid #eee;
+    }
+    li:last-child {
+      border-bottom: none;
+    }
+    a {
+      font-size: 18px;
+      color: #2980b9;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    a:hover {
+      color: #e74c3c;
+      text-decoration: underline;
+    }
+    .date {
+      color: #7f8c8d;
+      font-size: 14px;
+      margin-left: 10px;
+    }
+    .footer {
+      text-align: center;
+      margin-top: 40px;
+      color: #95a5a6;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <h1>🔐 我的学习笔记</h1>
+  <ul>
+    <!-- 在这里添加你的文章，格式如下：
+    <li>
+      <a href="https://www.notion.so/32c7358b1901804fad3ee6ef67cec0db?source=copy_link">反序列化知识点</a >
+      <span class="date">2026-03-27</span>
+    </li>
+<li>
+      <a href="https://www.notion.so/ctfshow-32c7358b190180ada125f33c62e86346?source=copy_link">ctfshow反序列化</a >
+      <span class="date">2026-03-27</span>
+    </li>
+<li>
+      <a href="https://www.notion.so/rce-32a7358b1901800f8f71db1a39afaa9a?source=copy_link">文件包含和rce部分知识点</a >
+      <span class="date">2026-03-27</span>
+    </li>
+<li>
+      <a href="https://www.notion.so/CTF-show-RCE-31e7358b1901803e80ced10a63f8ecaa?source=copy_link">ctfshow的rce</a >
+      <span class="date">2026-03-27</span>
+    </li>
+<li>
+      <a href="https://www.notion.so/RCE-31e7358b190180cf9ef3f3db5ae57ce8?source=copy_link">rce知识点</a >
+      <span class="date">2026-03-27</span>
+    </li>
+<li>
+      <a href="https://www.notion.so/CTFhubS-RCE-3187358b1901808a934ef79dd03075f0?source=copy_link">CTFhubS文件上传和RCE</a >
+      <span class="date">2026-03-27</span>
+    </li>
+<li>
+      <a href="https://www.notion.so/uploadlabs-3257358b1901809d810ee75204b29b5a?source=copy_link">uploadlabs</a >
+      <span class="date">2026-03-27</span>
+    </li>
+<li>
+      <a href="https://www.notion.so/ctf-show-3187358b190180e1acfffcbbae176599?source=copy_link">ctf.show文件上传和文件包含</a >
+      <span class="date">2026-03-27</span>
+    </li>
+<li>
+      <a href="https://www.notion.so/CTFhub-CTFshow-SSRF-31a7358b190180699b4ed36c70e2118b?source=copy_link">CTFhub和CTFshow的SSRF</a >
+      <span class="date">2026-03-27</span>
+    </li>
+<li>
+      <a href="https://www.notion.so/SSTI-31e7358b190180a0ba96f753d8b0513c?source=copy_link">ssti的知识点</a >
+      <span class="date">2026-03-27</span>
+    </li>
+<li>
+      <a href="https://www.notion.so/CTF-show-SSTI-31e7358b1901806c9c73f615c5d0fa0a?source=copy_link">CTF.show的SSTI</a >
+      <span class="date">2026-03-27</span>
+    </li>
+<li>
+      <a href="https://www.notion.so/PHP-3257358b1901807d9b72eceacaadf9ac?source=copy_link">php特性知识点</a >
+      <span class="date">2026-03-27</span>
+    </li>
+<li>
+      <a href="https://www.notion.so/ctfshow-PHP-3257358b1901801f9ffcd3830fa3b245?source=copy_link">ctfshow的PHP特性</a >
+      <span class="date">2026-03-27</span>
+    </li>
+<li>
+      <a href="https://www.notion.so/sqli_labs-1-40-31b7358b190180679112d51c7c307131?source=copy_link">sqlilabs1-40</a >
+      <span class="date">2026-03-27</span>
+    </li>
+<li>
+      <a href="https://www.notion.so/sqlmap-3277358b190180e0a093e924ca806dc6?source=copy_link">sqlmap的用法</a >
+      <span class="date">2026-03-27</span>
+    </li>
+    -->
+  </ul>
+
+  <div class="footer">
+    <p>📚 共 <strong id="post-count">0</strong> 篇文章 | 最后更新：2026-03-28</p >
+    <p><small>Powered by GitHub Pages</small></p >
+  </div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const count = document.querySelectorAll('ul li').length;
+      document.getElementById('post-count').textContent = count;
+    });
+  </script>
+</body>
+</html>
